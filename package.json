@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "casperjs test test.js",
+    "slimer": "casperjs test ./slimer/test.js --engine=slimerjs"
+  },
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "phantomcss": "^1.6.0",
+    "phantomjs": "^2.1.7"
+  }
+}
